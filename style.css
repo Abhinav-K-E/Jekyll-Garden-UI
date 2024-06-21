@@ -18,3 +18,32 @@
     height: 100%;
     background-color: transparent;
 }
+
+/* === navbar ===*/
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--space-5);
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap: var(--space-10);
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+}
+
+.nav-link-li{
+    list-style: none;
+}
+
+.nav-link{
+    list-style: none;
+    color: var(--flexoki-black);
+}

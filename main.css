@@ -1,7 +1,16 @@
+/* import font  */
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* ==== global styles ==== */
+
 * {
   margin: 0;
   padding: 0;
+  font-family: "Public Sans", sans-serif;
+}
+
+a{
+    text-decoration: none;
 }
 
 /* ==== variables ==== */
@@ -66,4 +75,17 @@
    --font-weight-bold: 700;
    --font-weight-extra-bold: 800;
    --font-weight-black: 900;
+
+   /* ==== Space Base unit ==== */
+  --space-unit: 8px;
+
+  /* Space scale */
+  --space-3xs: calc(0.25 * var(--space-unit));  /* 2px */
+  --space-2xs: calc(0.5 * var(--space-unit));   /* 4px */
+  --space-1: calc(1 * var(--space-unit));      /* 8px */
+  --space-2: calc(2 * var(--space-unit));      /* 16px */
+  --space-3: calc(3 * var(--space-unit));      /* 24px */
+  --space-4: calc(4 * var(--space-unit));      /* 32px */
+  --space-5: calc(5 * var(--space-unit));      /* 40px */
+  --space-10: calc(10 * var(--space-unit));      /* 80px */
 }
