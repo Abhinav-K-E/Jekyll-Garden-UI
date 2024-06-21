@@ -222,3 +222,38 @@ h2{
     background-position: center;
     background-size: cover;
 }
+
+/*=== subscribe-bar ===*/
+.subscribe-bar-container{
+    width: 100%;
+    padding: var(--space-4) 0px;
+}
+
+.subscribe-bar{
+    padding: var(--space-1) var(--space-2);
+    background-color: var(--flexoki-light-50);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subscribe-bar-txt{
+    font-size: var(--fluid-xs);
+    font-weight: var(--font-weight-extra-light);
+    color: var(--flexoki-light-600);
+}
+
+.subscribe-span{
+    color: #575653;
+    text-decoration: underline;
+}
+
+.subscribe-btn{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #575653;
+    text-decoration: underline;
+    font-size: var(--fluid-sm);
+    cursor: pointer;
+}
