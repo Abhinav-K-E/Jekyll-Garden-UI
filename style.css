@@ -208,3 +208,17 @@ h2{
     background-color: var(--flexoki-light-50);
     border-left: 2px solid var(--flexoki-cyan);
 }
+
+/*=== image frame ===*/
+.image-frame{
+    width: 100%;
+    padding: var(--space-4) 0px;
+}
+
+.image{
+    width: 100%;
+    height: 460px;
+    background: url('./assets/images/img.png');
+    background-position: center;
+    background-size: cover;
+}
