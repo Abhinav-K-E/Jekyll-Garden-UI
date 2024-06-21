@@ -1,6 +1,5 @@
 /* import font  */
-@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Overpass+Mono:wght@300..700&display=swap");
 /* ==== global styles ==== */
 
 * {
@@ -16,6 +15,10 @@ a {
 /* ==== variables ==== */
 
 :root {
+  /* ==== font family ==== */
+  --open-sans: "Open Sans", sans-serif;
+  --overpass-mono: "Overpass Mono", monospace;
+  
   /* ==== Base colors ==== */
   --flexoki-black: #100f0f;
   --flexoki-paper: #fffcf0;

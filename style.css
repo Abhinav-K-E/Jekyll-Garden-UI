@@ -178,3 +178,17 @@ h2{
     transform: scaleX(1);
     transition: all .3s ease-in-out;
 }
+
+/*=== code ===*/
+.code-container{
+    width: 100%;
+    padding: var(--space-5) 0px;
+}
+
+.code{
+    padding: var(--space-3);
+    font-family: var(--overpass-mono);
+    font-size: var(--font-size-sm);
+    color: var(--flexoki-light-600);
+    background-color: var(--flexoki-light-50);
+}
