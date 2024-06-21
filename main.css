@@ -1,4 +1,43 @@
-*{
-    margin: 0;
-    padding: 0;
+/* ==== global styles ==== */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* ==== variables ==== */
+:root {
+  /* Base colors */
+  --flexoki-black: #100F0F;
+  --flexoki-paper: #FFFCF0;
+
+  /* Light theme */
+  --flexoki-light-600: #6F6E69;
+  --flexoki-light-300: #B7B5AC;
+  --flexoki-light-200: #CECDC3;
+  --flexoki-light-150: #DAD8CE;
+  --flexoki-light-100: #E6E4D9;
+  --flexoki-light-50: #F2F0E5;
+
+  /* Dark theme : doubted part */
+
+
+  /* Accent colors : color-400 */
+  --flexoki-red: #D14D41;
+  --flexoki-orange: #DA702C;
+  --flexoki-yellow: #D0A215;
+  --flexoki-green: #879A39;
+  --flexoki-cyan: #3AA99F;
+  --flexoki-blue: #4385BE;
+  --flexoki-purple: #8B7EC8;
+  --flexoki-magenta: #CE5D97;
+
+  /* Muted accent colors : color-600 */
+  --flexoki-red-muted: #AF3029;
+  --flexoki-orange-muted: #BC5215;
+  --flexoki-yellow-muted: #AD8301;
+  --flexoki-green-muted: #66800B;
+  --flexoki-cyan-muted: #24837B;
+  --flexoki-blue-muted: #205EA6;
+  --flexoki-purple-muted: #5E409D;
+  --flexoki-magenta-muted: #A02F6F;
 }
