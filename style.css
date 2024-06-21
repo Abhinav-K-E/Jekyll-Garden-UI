@@ -141,6 +141,7 @@ h2{
     border-bottom: 1px solid #ccc;
     padding-bottom: var(--space-1);
     color: var(--flexoki-black);
+    cursor: pointer;
 }
 
 .note-list-li:nth-child(1){
@@ -154,7 +155,6 @@ h2{
     color: var(--flexoki-black);
     line-height: var(--line-height-normal);
     transition: all .3s ease-in-out;
-    cursor: pointer;
 }
 
 .arrow-icon{
