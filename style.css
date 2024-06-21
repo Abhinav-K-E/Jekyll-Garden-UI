@@ -46,4 +46,6 @@
 .nav-link{
     list-style: none;
     color: var(--flexoki-black);
+    font-size: var(--fluid-sm);
+    font-weight: var(--font-weight-light);
 }
