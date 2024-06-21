@@ -182,7 +182,7 @@ h2{
 /*=== code ===*/
 .code-container{
     width: 100%;
-    padding: var(--space-5) 0px;
+    padding: var(--space-4) 0px;
 }
 
 .code{
@@ -196,7 +196,7 @@ h2{
 /*=== quote ===*/
 .quote-container{
     width: 100%;
-    padding: var(--space-5) 0px;
+    padding: var(--space-4) 0px;
 }
 
 .quote{
