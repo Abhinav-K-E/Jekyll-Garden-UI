@@ -5,8 +5,9 @@
 }
 
 /* ==== variables ==== */
+
 :root {
-  /* Base colors */
+  /* ==== Base colors ==== */
   --flexoki-black: #100F0F;
   --flexoki-paper: #FFFCF0;
 
@@ -40,4 +41,29 @@
   --flexoki-blue-muted: #205EA6;
   --flexoki-purple-muted: #5E409D;
   --flexoki-magenta-muted: #A02F6F;
+
+  /* ==== Base sizes ==== */
+
+  --font-size-xs: 0.833rem;
+  --font-size-sm: 1.000rem;
+  --font-size-md: 1.200rem;
+  --font-size-lg: 1.440rem;
+
+  /* Fluid typography variables */
+  --fluid-xs: clamp(0.833rem, 0.778rem + 0.278vw, 1.000rem);
+  --fluid-sm: clamp(1.000rem, 0.933rem + 0.333vw, 1.200rem);
+  --fluid-md: clamp(1.200rem, 1.120rem + 0.400vw, 1.440rem);
+  --fluid-lg: clamp(1.440rem, 1.344rem + 0.480vw, 1.728rem);
+
+   /* ==== Font weights ==== */
+
+   --font-weight-thin: 100;
+   --font-weight-extra-light: 200;
+   --font-weight-light: 300;
+   --font-weight-regular: 400;
+   --font-weight-medium: 500;
+   --font-weight-semi-bold: 600;
+   --font-weight-bold: 700;
+   --font-weight-extra-bold: 800;
+   --font-weight-black: 900;
 }
