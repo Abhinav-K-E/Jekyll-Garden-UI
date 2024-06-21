@@ -24,8 +24,8 @@
 /*==== common style ====*/
 
 h1{
-    font-size: var(--fluid-lg);
-    font-weight: var(--font-weight-regular);
+    font-size: var(--fluid-md);
+    font-weight: var(--font-weight-semi-bold);
 }
   
 h2{
@@ -84,6 +84,7 @@ h2{
 }
 
 /* === intro-content === */
+
 .intro-content{
     display: flex;
     flex-direction: column;
@@ -92,6 +93,7 @@ h2{
 }
 
 /* === book-card === */
+
 .book-card{
     display: flex;
     align-items: flex-start;
@@ -115,7 +117,64 @@ h2{
 .book-cover-pic{
     width: 160px;
     height: 100%;
-    background: url('./assets/images/Cover.png');
-    background-position: center;
-    background-size: cover;
+}
+
+/* note-list-sec */
+.note-list-sec{
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    padding: var(--space-5) 0px;
+}
+
+.note-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+}
+
+.note-list-li{
+    display: flex;
+    align-items: center;
+    gap: var(--space-1);
+    border-bottom: 1px solid #ccc;
+    padding-bottom: var(--space-1);
+    color: var(--flexoki-black);
+}
+
+.note-list-li:nth-child(1){
+    border-top: 1px solid #ccc;
+    padding-top: var(--space-1);
+}
+
+.note-title{
+    font-size: var(--fluid-sm);
+    font-weight: var(--font-weight-light);
+    color: var(--flexoki-black);
+    line-height: var(--line-height-normal);
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.arrow-icon{
+    display: flex;
+    align-items: center;
+}
+
+.arrow-img{
+    width: 24px;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all .3s ease-in-out;
+}
+
+.note-list-li:hover .note-title{
+    color: var(--flexoki-cyan);
+    transition: all .3s ease-in-out;
+}
+
+.note-list-li:hover .arrow-img{
+    transform: scaleX(1);
+    transition: all .3s ease-in-out;
 }
