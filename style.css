@@ -192,3 +192,19 @@ h2{
     color: var(--flexoki-light-600);
     background-color: var(--flexoki-light-50);
 }
+
+/*=== quote ===*/
+.quote-container{
+    width: 100%;
+    padding: var(--space-5) 0px;
+}
+
+.quote{
+    padding: var(--space-3);
+    font-size: var(--font-size-sm);
+    line-height: var(--line-height-normal);
+    font-weight: var(--font-weight-light);
+    color: var(--flexoki-light-600);
+    background-color: var(--flexoki-light-50);
+    border-left: 2px solid var(--flexoki-cyan);
+}
