@@ -299,7 +299,7 @@ p{
 
 .card-sub-title{
     font-size: var(--fluid-xs);
-    color: #343331;  /*update color as variable*/
+    color: var(--flexoki-light-850); 
 }
 
 .card-image-container{
@@ -312,7 +312,7 @@ p{
 .card-sub-txt p{
     font-size: var(--fluid-xs);
     font-weight: var(--font-weight-extra-light);
-    color: #343331; /*update color as variable*/
+    color: var(--flexoki-light-850);
 }
 
 
