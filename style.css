@@ -73,7 +73,7 @@ p{
 .nav-left{
     display: flex;
     align-items: center;
-    gap: var(--space-10);
+    gap: var(--space-5);
 }
 
 .nav-links{
