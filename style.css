@@ -32,6 +32,16 @@ h2{
     font-size: var(--fluid-md);
     font-weight: var(--font-weight-light);
 }
+
+h3{
+    font-size: var(--fluid-xs);
+    font-weight: var(--font-weight-semi-bold);
+}
+ 
+h6{
+    font-size: var(--fluid-xs);
+    font-weight: var(--font-weight-semi-light);
+}
   
 p{
     font-size: var(--fluid-sm);
