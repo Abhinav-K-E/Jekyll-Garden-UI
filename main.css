@@ -33,7 +33,13 @@ a {
   --flexoki-paper: #fffcf0;
 
   /* Light theme */
-  --flexoki-light-600: #6f6e69;
+  --flexoki-light-950: #1C1B1A;
+  --flexoki-light-900: #282726;
+  --flexoki-light-850: #343331;
+  --flexoki-light-800: #403E3C;
+  --flexoki-light-700: #575653;
+  --flexoki-light-600: #6F6E69;
+  --flexoki-light-500: #878580;
   --flexoki-light-300: #b7b5ac;
   --flexoki-light-200: #cecdc3;
   --flexoki-light-150: #dad8ce;
