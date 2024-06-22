@@ -314,3 +314,16 @@ p{
     font-weight: var(--font-weight-extra-light);
     color: #343331; /*update color as variable*/
 }
+
+
+/*====== responsive =======*/
+
+/*--- for tablet ---*/
+@media(max-width: 768px){
+
+}
+
+/*--- for mobile ---*/
+@media(max-width: 480px){
+
+}
