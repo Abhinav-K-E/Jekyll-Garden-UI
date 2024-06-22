@@ -33,14 +33,14 @@ h2{
     font-weight: var(--font-weight-light);
 }
   
-.para{
+p{
     font-size: var(--fluid-sm);
     font-weight: var(--font-weight-light);
     color: var(--flexoki-light-600);
     line-height: var(--line-height-normal);
 }
 
-.sub-txt{
+.sub-txt p{
     font-size: var(--fluid-xs);
     font-weight: var(--font-weight-light);
     color: var(--flexoki-light-600);
@@ -237,7 +237,7 @@ h2{
     justify-content: space-between;
 }
 
-.subscribe-bar-txt{
+.subscribe-bar-txt p{
     font-size: var(--fluid-xs);
     font-weight: var(--font-weight-extra-light);
     color: var(--flexoki-light-600);
@@ -299,7 +299,7 @@ h2{
     justify-content: center;
 }
 
-.card-sub-txt{
+.card-sub-txt p{
     font-size: var(--fluid-xs);
     font-weight: var(--font-weight-extra-light);
     color: #343331; /*update color as variable*/
