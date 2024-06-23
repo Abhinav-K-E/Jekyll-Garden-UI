@@ -31,6 +31,7 @@ a {
   /* ==== Base colors ==== */
   --flexoki-black: #100f0f;
   --flexoki-paper: #fffcf0;
+  --sub-txt:#575653;
 
   /* Light theme */
   --flexoki-light-950: #1C1B1A;

@@ -321,10 +321,14 @@ p{
 }
 
 /*=== note-links-container ===*/
+.note-links-container >p{
+    color: var(--flexoki-light-700);    
+}
 .note-links-container >p>a{
     text-decoration: underline;
-    color: var(--flexoki-light-700);    
+    color: var(--sub-txt);    
     margin-left: 4px;
+    font-weight: var(--font-weight-regular);
 }
 .note-links-container >p>a>sup{
     font-size: var(--sup-txt);
