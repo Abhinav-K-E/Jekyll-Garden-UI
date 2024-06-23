@@ -72,7 +72,7 @@ a {
 
   /* Fluid typography variables */
   --fluid-xs: clamp(0.033rem, 0.778rem + 0.278vw, 1rem);
-  --fluid-sm: clamp(1rem, 0.933rem + 0.333vw, 1.2rem);
+  --fluid-sm: clamp(0.033rem, 0.933rem + 0.333vw, 1.1rem);
   --fluid-md: clamp(1.2rem, 1.12rem + 0.4vw, 1.44rem);
   --fluid-lg: clamp(1.44rem, 1.344rem + 0.48vw, 1.728rem);
   --sup-txt : 10px;

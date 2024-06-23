@@ -38,6 +38,11 @@ h2{
 }
 
 h3{
+    font-size: var(--fluid-sm);
+    font-weight: var(--font-weight-semi-bold);
+}
+
+h4{
     font-size: var(--fluid-xs);
     font-weight: var(--font-weight-semi-bold);
 }
@@ -341,6 +346,12 @@ p{
     font-size: var(--fluid-md);
 }
 
+/*=== two-column-grid-layout ===*/
+.two-column-grid-layout{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: var(--space-2);
+}
 
 
 /*====== responsive =======*/
