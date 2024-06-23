@@ -319,6 +319,17 @@ p{
 .content{
     padding: 40px 0px;
 }
+
+/*=== note-links-container ===*/
+.note-links-container >p>a{
+    text-decoration: underline;
+    color: var(--flexoki-light-700);    
+    margin-left: 4px;
+}
+.note-links-container >p>a>sup{
+    font-size: var(--sup-txt);
+}
+
 /*====== responsive =======*/
 
 /*--- for tablet ---*/
