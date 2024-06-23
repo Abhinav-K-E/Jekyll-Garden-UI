@@ -335,6 +335,12 @@ p{
     font-size: var(--sup-txt);
 }
 
+/*=== bolded-txt ===*/
+.bolded-txt p{
+    font-weight: var(--font-weight-semi-bold);
+    font-size: var(--fluid-md);
+}
+
 
 
 /*====== responsive =======*/
