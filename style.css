@@ -315,7 +315,10 @@ p{
     color: var(--flexoki-light-850);
 }
 
-
+/*=== content ===*/
+.content{
+    padding: 40px 0px;
+}
 /*====== responsive =======*/
 
 /*--- for tablet ---*/
