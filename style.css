@@ -2,7 +2,6 @@
 
 .wrapper {
   width: 100%;
-  min-width: 100vw;
   height: 100vh;
   background-color: var(--flexoki-paper);
   display: flex;
@@ -451,6 +450,9 @@ li{
     }
     .inner-nav-group{
         display: none;
+    }
+    .centered-container{
+        padding: 0px var(--space-2);
     }
 }
 
