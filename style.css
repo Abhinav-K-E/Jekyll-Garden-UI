@@ -59,6 +59,16 @@ p {
   line-height: var(--line-height-normal);
 }
 
+li{
+    display: flex;
+    align-items: center;
+    gap: var(--space-1);
+    border-bottom: 1px solid #ccc;
+    padding-bottom: var(--space-1);
+    color: var(--flexoki-black);
+    cursor: pointer;
+}
+
 .sub-txt p {
   font-size: var(--fluid-xs);
   font-weight: var(--font-weight-light);
@@ -216,17 +226,7 @@ p {
   gap: var(--space-1);
 }
 
-.note-list-li {
-  display: flex;
-  align-items: center;
-  gap: var(--space-1);
-  border-bottom: 1px solid #ccc;
-  padding-bottom: var(--space-1);
-  color: var(--flexoki-black);
-  cursor: pointer;
-}
-
-.note-list-li:nth-child(1) {
+.note-list li:nth-child(1) {
   border-top: 1px solid #ccc;
   padding-top: var(--space-1);
 }
@@ -251,12 +251,12 @@ p {
   transition: all 0.3s ease-in-out;
 }
 
-.note-list-li:hover .note-title {
+.note-list li:hover .note-title {
   color: var(--flexoki-cyan);
   transition: all 0.3s ease-in-out;
 }
 
-.note-list-li:hover .arrow-img {
+.note-list li:hover .arrow-img {
   transform: scaleX(1);
   transition: all 0.3s ease-in-out;
 }
