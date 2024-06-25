@@ -419,6 +419,13 @@ p {
   gap: var(--space-2);
 }
 
+/*=== credit-txt ===*/
+.credit-txt p{
+    text-align: center;
+    color: var(--flexoki-light-850);
+}
+
+
 /*====== responsive =======*/
 
 /*--- for tablet ---*/
