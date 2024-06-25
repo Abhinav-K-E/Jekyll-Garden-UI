@@ -423,6 +423,7 @@ li{
 .credit-txt p{
     text-align: center;
     color: var(--flexoki-light-850);
+    font-size: var(--fluid-xs);
 }
 
 
