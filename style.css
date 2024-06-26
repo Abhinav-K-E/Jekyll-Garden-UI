@@ -441,6 +441,17 @@ li{
     font-weight: var(--font-weight-medium);
 }
 
+/*=== link-note-container ===*/
+.link-note-container{
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.link-note-container h2{
+  text-align: center;
+}
+
 /*====== responsive =======*/
 
 /*--- for tablet ---*/
