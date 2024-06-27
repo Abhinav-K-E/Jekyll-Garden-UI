@@ -82,6 +82,7 @@ li{
 
 .green-txt {
   color: var(--flexoki-cyan);
+  text-decoration: none;
 }
 
 /* === navbar ===*/
@@ -508,6 +509,48 @@ li:nth-child(1) {
   color: var(--flexoki-black);
   padding-right: var(--space-1);
 }
+
+/*=== contributor component ===*/
+.contributor-component{
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+.contributor-bottom-sec{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.contributer-bar-left p{
+  font-weight: var(--font-weight-medium);
+}
+
+.contributer-list{
+  display: flex;
+  gap: var(--space-1);
+  align-items: center;
+}
+
+.contribution-year{
+  font-weight: var(--font-weight-light);
+  color: var(--flexoki-light-850);
+  font-size: var(--fluid-sm);
+}
+
+.contributor{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.contributor-bar-right{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--space-1);
+}
+
 /*====== responsive =======*/
 
 /*--- for tablet ---*/
