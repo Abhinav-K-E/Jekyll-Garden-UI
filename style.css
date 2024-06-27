@@ -350,14 +350,7 @@ li:nth-child(1) {
   cursor: pointer;
 }
 
-/*=== card-grid ===*/
-.card-grid {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: var(--space-2);
-}
-
+/*=== product cards ===*/
 .card {
   display: flex;
   flex-direction: column;
@@ -520,6 +513,7 @@ li:nth-child(1) {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  gap: var(--space-1);
 }
 
 .contributer-bar-left p{
@@ -567,6 +561,27 @@ li:nth-child(1) {
 }
 
 /*--- for mobile ---*/
-@media (max-width: 480px) {
-  
+@media (max-width: 520px) {
+  .two-column-grid-layout{
+    grid-template-columns: 1fr;
+  }
+  .link-note-container li:nth-child(2){
+    border-top: none;
+  }
+  .subscribe-bar{
+    flex-wrap: wrap;
+  }
+  .book-card{
+    flex-wrap: wrap;
+  }
+}
+
+/*--- for mobile ---*/
+@media (max-width: 360px) {
+  .contributor-bottom-sec{
+    flex-wrap: wrap;
+  }
+  .contributor-bar-right{
+    align-items: flex-start;
+  }
 }
