@@ -230,7 +230,7 @@ li{
   gap: var(--space-1);
 }
 
-.note-list li:nth-child(1) {
+li:nth-child(1) {
   border-top: 1px solid #ccc;
   padding-top: var(--space-1);
 }
@@ -452,6 +452,48 @@ li{
   text-align: center;
 }
 
+/*=== detailed-list-container ===*/
+.detailed-list-container{
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.detailed-note-list{
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.detailed-note-list li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-5);
+}
+
+.list-content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-2);
+}
+
+.list-content p{
+  font-size: var(--fluid-xs);
+}
+
+.visit-btn{
+  text-transform: capitalize;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-size: var(--fluid-xs);
+  font-weight: var(--font-weight-medium);
+  color: var(--flexoki-black);
+  padding-right: var(--space-1);
+}
 /*====== responsive =======*/
 
 /*--- for tablet ---*/
