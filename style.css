@@ -113,6 +113,15 @@ li{
 
 .nav-link-li {
   list-style: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-link-li:nth-child(1){
+  border: none;
+  padding: 0;
+  margin: 0;
 }
 
 .nav-link {
@@ -450,6 +459,11 @@ li:nth-child(1) {
 
 .link-note-container h2{
   text-align: center;
+}
+
+.link-note-container li:nth-child(2){
+  border-top: 1px solid #ccc;
+  padding-top: var(--space-1);
 }
 
 /*=== detailed-list-container ===*/
