@@ -320,7 +320,7 @@ li:nth-child(1) {
   width: 100%;
 }
 
-.code {
+code {
   padding: var(--space-3);
   font-family: var(--overpass-mono);
   font-size: var(--font-size-sm);
@@ -333,7 +333,7 @@ li:nth-child(1) {
   width: 100%;
 }
 
-.quote {
+blockquote {
   padding: var(--space-3);
   font-size: var(--font-size-sm);
   line-height: var(--line-height-normal);
@@ -348,10 +348,8 @@ li:nth-child(1) {
   width: 100%;
 }
 
-.image {
+img {
   width: 100%;
-  height: 460px;
-  background: url("./assets/images/img.png");
   background-position: center;
   background-size: cover;
 }
@@ -486,7 +484,7 @@ li:nth-child(1) {
   transition: all .3s ease-in-out;
 }
 
-.link-note-container h2{
+.link-note-container h6{
   text-align: center;
 }
 
