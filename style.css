@@ -44,6 +44,7 @@ h1 {
 h2 {
   font-size: var(--title-big);
   font-weight: var(--font-weight-regular);
+  margin-bottom: var(--space-2);
 }
 
 h3 {
@@ -102,6 +103,10 @@ li {
   align-items: center;
   justify-content: space-between;
   padding: var(--space-5) 0px;
+}
+
+.nav a{
+  text-decoration: none;
 }
 
 .nav-right {
@@ -438,11 +443,9 @@ img {
 .content-container {
   display: flex;
   flex-direction: column;
-  gap: var(--space-2);
 }
 
 /*=== note-links-container ===*/
-
 .note-links-container > p {
   color: var(--theme-light-700);
 }
@@ -488,7 +491,6 @@ img {
 .link-note-container {
   display: flex;
   flex-direction: column;
-  gap: var(--space-4);
   transition: all 0.3s ease-in-out;
 }
 
@@ -516,7 +518,6 @@ img {
 .detailed-list-container {
   display: flex;
   flex-direction: column;
-  gap: var(--space-2);
 }
 
 .detailed-note-list {
