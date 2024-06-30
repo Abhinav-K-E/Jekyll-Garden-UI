@@ -460,6 +460,10 @@ img {
   color: var(--theme-light-850);
 }
 
+.card img{
+  width: 200px;
+}
+
 /*=== content ===*/
 .content-container {
   display: flex;
