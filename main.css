@@ -34,6 +34,7 @@
   --theme-black: #100f0f;
   --theme-paper: #fffcf0;
   --sub-txt: #575653;
+  --brand-color:#24837B;
 
   /* Light theme */
   --theme-light-950: #1c1b1a;
@@ -66,7 +67,7 @@
   --theme-orange-600: #bc5215;
   --theme-yellow-600: #ad8301;
   --theme-green-600: #66800b;
-  --theme-cyan-600: #24837b;
+  --theme-cyan-600: #24837B;
   --theme-blue-600: #205ea6;
   --theme-purple-600: #5e409d;
   --theme-magenta-600: #a02f6f;

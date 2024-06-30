@@ -48,13 +48,8 @@ h2 {
 }
 
 h3 {
-  font-size: var(--fluid-sm);
-  font-weight: var(--font-weight-semi-bold);
-}
-
-h4 {
-  font-size: var(--fluid-xs);
-  font-weight: var(--font-weight-semi-bold);
+  font-size: var(--title-regular);
+  color: var(--theme-light-800);
 }
 
 h6 {
@@ -63,7 +58,7 @@ h6 {
 }
 
 p {
-  font-size: var(--fluid-sm);
+  font-size: var(--text-rg);
   font-weight: var(--font-weight-light);
   color: var(--theme-light-600);
   line-height: var(--line-height-normal);
@@ -85,15 +80,15 @@ li {
   line-height: var(--line-height-normal);
 }
 
-.green-txt {
-  color: var(--theme-cyan);
+.brand-txt {
+  color: var(--brand-color);
   text-decoration: none;
 }
 
 /*=== bolded-txt ===*/
 .bolded-txt p {
-  font-weight: var(--font-weight-medium);
-  font-size: var(--fluid-md);
+  font-weight: var(--font-weight-semi-bold);
+  font-size: var(--title-big);
 }
 
 /* === navbar ===*/
