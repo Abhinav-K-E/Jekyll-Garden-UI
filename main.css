@@ -13,7 +13,7 @@
   margin: 0;
   padding: 0;
   font-family: "Public Sans", 'Manjari', sans-serif;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 * {
@@ -25,6 +25,12 @@ a {
 }
 
 /* ==== variables ==== */
+/*
+  TODO
+  - CHANGE FRONT SIZE AND ALSO ADD 6 FONT WEIGHT VARIABLES
+  - MALAYALAM FONT 400,700
+
+*/
 
 :root {
   /* ==== font family ==== */
@@ -32,45 +38,45 @@ a {
   --overpass-mono: "Overpass Mono", monospace;
   
   /* ==== Base colors ==== */
-  --flexoki-black: #100f0f;
-  --flexoki-paper: #fffcf0;
+  --theme-black: #100F0F;
+  --theme-paper: #fffcf0;
   --sub-txt:#575653;
 
   /* Light theme */
-  --flexoki-light-950: #1C1B1A;
-  --flexoki-light-900: #282726;
-  --flexoki-light-850: #343331;
-  --flexoki-light-800: #403E3C;
-  --flexoki-light-700: #575653;
-  --flexoki-light-600: #6F6E69;
-  --flexoki-light-500: #878580;
-  --flexoki-light-300: #b7b5ac;
-  --flexoki-light-200: #cecdc3;
-  --flexoki-light-150: #dad8ce;
-  --flexoki-light-100: #e6e4d9;
-  --flexoki-light-50: #f2f0e5;
+  --theme-light-950: #1C1B1A;
+  --theme-light-900: #282726;
+  --theme-light-850: #343331;
+  --theme-light-800: #403E3C;
+  --theme-light-700: #575653;
+  --theme-light-600: #6F6E69;
+  --theme-light-500: #878580;
+  --theme-light-300: #b7b5ac;
+  --theme-light-200: #cecdc3;
+  --theme-light-150: #dad8ce;
+  --theme-light-100: #e6e4d9;
+  --theme-light-50: #f2f0e5;
 
   /* Dark theme : doubted part */
 
   /* Accent colors : color-400 */
-  --flexoki-red: #d14d41;
-  --flexoki-orange: #da702c;
-  --flexoki-yellow: #d0a215;
-  --flexoki-green: #879a39;
-  --flexoki-cyan: #3aa99f;
-  --flexoki-blue: #4385be;
-  --flexoki-purple: #8b7ec8;
-  --flexoki-magenta: #ce5d97;
+  --theme-red: #d14d41;
+  --theme-orange: #da702c;
+  --theme-yellow: #d0a215;
+  --theme-green: #879a39;
+  --theme-cyan: #3aa99f;
+  --theme-blue: #4385be;
+  --theme-purple: #8b7ec8;
+  --theme-magenta: #ce5d97;
 
   /* Muted accent colors : color-600 */
-  --flexoki-red-muted: #af3029;
-  --flexoki-orange-muted: #bc5215;
-  --flexoki-yellow-muted: #ad8301;
-  --flexoki-green-muted: #66800b;
-  --flexoki-cyan-muted: #24837b;
-  --flexoki-blue-muted: #205ea6;
-  --flexoki-purple-muted: #5e409d;
-  --flexoki-magenta-muted: #a02f6f;
+  --theme-red-600: #af3029;
+  --theme-orange-600: #bc5215;
+  --theme-yellow-600: #ad8301;
+  --theme-green-600: #66800b;
+  --theme-cyan-600: #24837b;
+  --theme-blue-600: #205ea6;
+  --theme-purple-600: #5e409d;
+  --theme-magenta-600: #a02f6f;
 
 
   /* Fluid typography variables */
@@ -134,7 +140,7 @@ a {
   margin-left: 20px;
   transform: translate(0, -50%);
   padding: 10px 20px;
-  background-color: var(--flexoki-light-50);
+  background-color: var(--theme-light-50);
   font-size: 1rem;
   position: absolute;
   z-index: 99999999;
@@ -164,8 +170,8 @@ a {
   left: 0;
   top: 50%;
   transform: translate(50%, -50%) rotate(-45deg);
-  background-color: var(--flexoki-light-50);
-  box-shadow: 0 1px 8px var(--flexoki-light-50);
+  background-color: var(--theme-light-50);
+  box-shadow: 0 1px 8px var(--theme-light-50);
 }
 
 .right .tooltip-title {
