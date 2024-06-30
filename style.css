@@ -10,12 +10,14 @@
   justify-content: flex-start;
   overflow: hidden;
   overflow-y: auto;
+  padding: var(--space-2);
 }
 
 /* centered container style */
 
 .centered-container {
   max-width: 720px;
+  width: 100%;
   height: 100%;
   background-color: transparent;
 }
@@ -175,13 +177,13 @@ li {
 
 .icon-menu {
   --gap: 5px;
-  --height-bar: 2.5px;
+  --height-bar: 1.5px;
   --pos-y-bar-one: 0;
   --pos-y-bar-three: 0;
   --scale-bar: 1;
   --rotate-bar-one: 0;
   --rotate-bar-three: 0;
-  min-width: 25px;
+  min-width: 20px;
   display: flex;
   flex-direction: column;
   gap: var(--gap);
@@ -195,7 +197,7 @@ li {
   height: var(--height-bar);
   min-width: 100%;
   border-radius: 0.5rem;
-  background-color: var(--theme-black);
+  background-color: var(--theme-light-850);
 }
 
 .bar--1 {
@@ -333,6 +335,7 @@ code {
   line-height: var(--line-height-normal);
   color: var(--theme-light-600);
   background-color: var(--theme-light-50);
+  margin-bottom: var(--space-2);
 }
 
 /*=== quote ===*/
