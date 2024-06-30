@@ -38,13 +38,13 @@ sup{
 
 h1 {
   font-size: var(--font-size-big);
-  font-weight: var(--font-weight-regular);
+  font-weight: var(--font-weight-light);
   margin-bottom: var(--space-2);
 }
 
 h2 {
   font-size: var(--title-big);
-  font-weight: var(--font-weight-regular);
+  font-weight: var(--font-weight-medium);
   margin-bottom: var(--space-2);
 }
 
