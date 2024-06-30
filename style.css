@@ -76,6 +76,11 @@ li {
   list-style: disc;
 }
 
+/* style for list inside another list */
+li>ul,ol{
+  padding: var(--space-2);
+}
+
 .sub-txt p {
   font-size: var(--fluid-xs);
   font-weight: var(--font-weight-light);
@@ -691,6 +696,9 @@ img {
   }
   .book-card {
     flex-wrap: wrap;
+  }
+  .padded-container{
+    padding: var(--space-2) 0px;
   }
 }
 

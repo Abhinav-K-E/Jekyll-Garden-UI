@@ -1,25 +1,25 @@
 # 29 June Last Bugs and To-Do
 ## Must Correct
-- [ ] Color Naming
-    - [ ] Create new variables for color --theme-light-text, --theme-dark-sub-text etc
+- [x] Color Naming
+    - [x] Create new variables for color --theme-light-text, --theme-dark-sub-text etc
 
 - [x] H-logo in Nav
-    - [ ] Change variables to color values
+    - [x] Change variables to color values
 - [x] Hyperlink from Logo
 - [x] Nav Item Font Finalise
-- [ ] Font name in CSS
-    - [ ] Just two weights
-    - [ ] Set like in figma
-    - [ ] p is coming to 17.6, it has to be 16px
+- [x] Font name in CSS
+    - [x] Just two weights
+    - [x] Set like in figma
+    - [x] p is coming to 17.6, it has to be 16px
 - [ ] Nav Mobile, Show Menu Items
     - [ ] Copy from hiran.in
     - [ ] Change Menu Icon, Animation
-- [ ] Padded-Container spacing in Mobile is too much
-- [ ] Subscribe-Bar, two-col design in mobile
-- [ ] Underline for all Hyperlinks
-- [ ] Add padding for markdown items.
-    - [ ] Cleanup existing paddings
-    - [ ] Add padding under code/quote/image
+- [x] Padded-Container spacing in Mobile is too much
+- [x] Subscribe-Bar, two-col design in mobile
+- [x] Underline for all Hyperlinks
+- [x] Add padding for markdown items.
+    - [x] Cleanup existing paddings
+    - [x] Add padding under code/quote/image
 - [x] Sun Moon Missing
 - [x] Better content for Pre-MOC list that explains website
 - [x] Topics page broken
@@ -28,13 +28,13 @@
 - [x] CSS for Tooltip, or remove that feature
 - [x] Change .quote to blockquote, .code to code and .image to img
 - [x] No fixed height for img
-- [ ] li should be simple, no need of underlines in li level
+- [x] li should be simple, no need of underlines in li level
 - [x] Malayalam Rendering - Edit CSS
-    - [ ] Header Malayalam has some issues.
-    - [ ] To solve, weight has to be 400 or 700. 
+    - [x] Header Malayalam has some issues.
+    - [x] To solve, weight has to be 400 or 700. 
 - [ ] Dark/Light theme
-    - [ ] Rename Colors before that
-- [ ] Spacing issue for Webfound page detailed list
+    - [x] Rename Colors before that
+- [x] Spacing issue for Webfound page detailed list
 - [x] Asset links
 - [ ] Footer issue, some div missing
 ## Good to Have
