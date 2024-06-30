@@ -144,6 +144,23 @@ li>ul,ol{
   font-weight: var(--font-weight-light);
 }
 
+.mobile-nav{
+  width: 100%;
+  display: none;
+  transition: all .4s ease-in-out;
+}
+
+.mobile-nav a{
+  text-decoration: none;
+}
+
+.mobile-nav ul{
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  align-items: flex-start;
+}
+
 /*=== toggle ===*/
 .toggle {
   display: grid;
@@ -636,20 +653,6 @@ img {
 .profile-name {
   color: var(--theme-cyan);
 }
-/*====== responsive =======*/
-
-/*--- for tablet ---*/
-@media (max-width: 768px) {
-  .icon-menu {
-    display: flex;
-  }
-  .inner-nav-group {
-    display: none;
-  }
-  .centered-container {
-    padding: 0px var(--space-2);
-  }
-}
 
 /*=== testimonials-component ===*/
 .testimonials-component {
@@ -689,6 +692,31 @@ img {
   font-weight: var(--font-weight-extra-light);
   font-size: var(--fluid-xs);
 }
+
+/*====== responsive =======*/
+
+/*--- for tablet ---*/
+@media (max-width: 768px) {
+  .icon-menu {
+    display: flex;
+  }
+  .nav-container{
+    width: 100%;
+    max-height: 100%;
+    position: relative;
+  }
+  .inner-nav-group ul{
+    display: none;
+  }
+  .centered-container {
+    padding: 0px var(--space-2);
+  }
+  .is-visible{
+    display: flex;
+    transition: all .4s ease-in-out;
+  }
+}
+
 /*--- for mobile ---*/
 @media (max-width: 520px) {
   .two-column-grid-layout {
