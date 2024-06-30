@@ -1,10 +1,11 @@
 /* import font  */
-@import url('https://fonts.googleapis.com/css2?family=Manjari:wght@400;700&family=Overpass+Mono:wght@300..700&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');/* ==== global styles ==== */
+@import url("https://fonts.googleapis.com/css2?family=Manjari:wght@400;700&family=Overpass+Mono:wght@300..700&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"); /* ==== global styles ==== */
 
 /* Define Manjari font with Unicode range */
 @font-face {
-  font-family: 'Manjari';
-  src: url('https://fonts.gstatic.com/s/manjari/v9/k3kQo8UPMOBO2w1UfdnoLg.woff2') format('woff2');
+  font-family: "Manjari";
+  src: url("https://fonts.gstatic.com/s/manjari/v9/k3kQo8UPMOBO2w1UfdnoLg.woff2")
+    format("woff2");
   font-display: swap;
   font-weight: 400 700;
 }
@@ -12,16 +13,8 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Public Sans", 'Manjari', sans-serif;
+  font-family: "Public Sans", "Manjari", sans-serif;
   font-weight: 400;
-}
-
-* {
-  font-weight: 400;
-}
-
-a {
-  text-decoration: none;
 }
 
 /* ==== variables ==== */
@@ -36,19 +29,19 @@ a {
   /* ==== font family ==== */
   --public-sans: "Public Sans", "Manjari", sans-serif;
   --overpass-mono: "Overpass Mono", monospace;
-  
+
   /* ==== Base colors ==== */
-  --theme-black: #100F0F;
+  --theme-black: #100f0f;
   --theme-paper: #fffcf0;
-  --sub-txt:#575653;
+  --sub-txt: #575653;
 
   /* Light theme */
-  --theme-light-950: #1C1B1A;
+  --theme-light-950: #1c1b1a;
   --theme-light-900: #282726;
   --theme-light-850: #343331;
-  --theme-light-800: #403E3C;
+  --theme-light-800: #403e3c;
   --theme-light-700: #575653;
-  --theme-light-600: #6F6E69;
+  --theme-light-600: #6f6e69;
   --theme-light-500: #878580;
   --theme-light-300: #b7b5ac;
   --theme-light-200: #cecdc3;
@@ -78,24 +71,18 @@ a {
   --theme-purple-600: #5e409d;
   --theme-magenta-600: #a02f6f;
 
+  /* font size variables */
 
-  /* Fluid typography variables */
-  --fluid-xs: clamp(0.033rem, 0.778rem + 0.278vw, 1rem);
-  --fluid-sm: clamp(0.033rem, 0.933rem + 0.333vw, 1.1rem);
-  --fluid-md: clamp(1.2rem, 1.12rem + 0.4vw, 1.44rem);
-  --fluid-lg: clamp(1.44rem, 1.344rem + 0.48vw, 1.728rem);
-  --sup-txt : 10px;
+  --font-size-big: clamp(1.1988rem, 1.1988rem + 0vi, 1.1988rem);
+  --font-size-regular: clamp(0.999rem, 0.999rem + 0vi, 0.999rem);
+  --font-size-small: clamp(0.8325rem, 0.8325rem + 0vi, 0.8325rem);
+
   /* ==== Font weights ==== */
-
-  --font-weight-thin: 100;
-  --font-weight-extra-light: 200;
   --font-weight-light: 300;
   --font-weight-regular: 400;
   --font-weight-medium: 500;
   --font-weight-semi-bold: 600;
   --font-weight-bold: 700;
-  --font-weight-extra-bold: 800;
-  --font-weight-black: 900;
 
   /* ==== Space Base unit ==== */
   --space-unit: 8px;
@@ -116,18 +103,24 @@ a {
   --line-height-normal: 1.5;
   --line-height-relaxed: 1.625;
   --line-height-loose: 2;
+
+  /* hiran fonts */
+
+  --text-sm: var(--font-size-small);
+  --text-rg: var(--font-size-regular);
+  --text-big: var(--font-size-big);
+  --title-sm: var(--font-size-small);
+  --title-rg: var(--font-size-regular);
+  --title-big: var(--font-size-big);
 }
 
-
 /*Added by Hiran */
-
 
 .tooltip {
   display: inline;
   position: relative;
   text-align: left;
 }
-
 
 .tooltip bottom {
   display: none;
@@ -163,7 +156,7 @@ a {
 }
 
 .tooltip .right i::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 12px;
   height: 12px;
