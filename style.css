@@ -704,6 +704,9 @@ img {
   }
   .centered-container {
     padding: 0px var(--space-2);
+    overflow: hidden;
+    overflow-y: auto;
+    width: 100%;
   }
   .is-visible{
     display: flex;
