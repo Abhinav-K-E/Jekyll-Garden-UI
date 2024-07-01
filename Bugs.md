@@ -1,29 +1,10 @@
 # 29 June Last Bugs and To-Do
 ## Must Correct
-- [x] Color Naming
-    - [x] Create new variables for color --theme-light-text, --theme-dark-sub-text etc
-
-- [x] H-logo in Nav
-    - [x] Change variables to color values
-- [x] Hyperlink from Logo
-- [x] Nav Item Font Finalise
-- [x] Font name in CSS
-    - [x] Just two weights
-    - [x] Set like in figma
-    - [x] p is coming to 17.6, it has to be 16px
-- [ ] Nav Mobile, Show Menu Items
-    - [ ] Copy from hiran.in
-    - [ ] Change Menu Icon, Animation
 - [x] Padded-Container spacing in Mobile is too much
 - [x] Subscribe-Bar, two-col design in mobile
 - [x] Underline for all Hyperlinks
-- [x] Add padding for markdown items.
-    - [x] Cleanup existing paddings
-    - [x] Add padding under code/quote/image
 - [x] Sun Moon Missing
 - [x] Better content for Pre-MOC list that explains website
-- [x] Topics page broken
-    - [ ] Now Page, update HTML for Updated time, in static.html
 - [x] How to show links - tooltip - just like hiran.in
 - [x] CSS for Tooltip, or remove that feature
 - [x] Change .quote to blockquote, .code to code and .image to img
@@ -32,23 +13,48 @@
 - [x] Malayalam Rendering - Edit CSS
     - [x] Header Malayalam has some issues.
     - [x] To solve, weight has to be 400 or 700. 
-- [ ] Dark/Light theme
-    - [x] Rename Colors before that
-- [x] Spacing issue for Webfound page detailed list
 - [x] Asset links
-- [ ] Footer issue, some div missing
-## Good to Have
-- [ ] Diff between external and internal hyperlinks
-- [ ] Cleanup email before homepage footer, once h1-h6 is fixed
+- [x] Footer issue, some div missing
 - [x] Cleanup Meta for Books
 - [x] *Things* need a different font
 - [x] Add notes for All webfounds
-## Note for future
-- [ ] 
-- [ ] 
-## Pages to Show
-- [ ] Home
-- [ ] About, Now and Coaching
-- [ ] Listing /workingnotes
-- [ ] Notes inside - spacing issues, li and all
-- [ ] Component neede
+
+## JULY 1
+- [ ] COLOR NAMING IS WRONG
+    - [ ] FOLLOW THIS https://gist.github.com/phenomen/affd8c346538378548febd20dccdbfcc
+    - [ ] THERE IS A FLEXOKI COLOR, AND THERE IS THEME COLOR, THAT REF FLEXOKI
+        - [ ] --flexoki-tx: 55 10% 79%;
+        - [ ] --theme-light-foreground: var(--flexoki-tx);
+        - [ ]  --theme-dark-foreground: var(--flexoki-bg);
+    - [ ] LOGO COLOR TO VAR IN HTML (hiran)
+- [ ] note-list-sec >li needs border, as per listing-component
+- [ ] a needs hover color change 
+- [ ] a in list needs arrow along with hover color change
+- [ ] p, code, blockquote and all basic html to have padding bottom
+- [x] notes page, footer is broken - one div extra
+- [ ] കളറിൽ ചെയ്യാൻ പറഞ്ഞത് നീ ഫോണ്ടിൽ ചെയ്തു.
+    - [ ] --font-size-small ഉണ്ടാക്കി, പിന്നെ അതിനെ --text-sm ആക്കേണ്ട ആവശ്യമില്ല.
+    - [ ] വേണമെങ്കിൽ അത് ചെയ്യാം, എന്നിട്ട് ഇതിന്റെ ഒപ്പം weight, line height ഒക്കെ കൊടുത്ത് ഫുൾ സെറ്റ് ആക്കാം
+    - [ ] എല്ലെങ്കിൽ ഇത് അനാവശ്യമല്ലേ?
+    - [ ] കളറിൽ ചെയ്താൽ ഫ്ലേക്സോക്കി ഇതാണ്, അതിലെ ഈ കളർ നമ്മൾ ടെക്സ്റ്റിനു ഉപയോഗിക്കുന്നു എന്ന് ക്ലിയർ ആകാം.  
+- [ ] Nav Mobile, Show Menu Items
+    - [ ] Copy from hiran.in
+    - [ ] Change Menu Icon, Animation
+- [ ] Correct p font size, now variable is missing
+    - [ ] Do a find and replace for all old variables
+- [ ] Add padding for markdown items.
+    - [ ] Cleanup existing paddings
+    - [ ] Add padding under code/quote/image
+- [ ] Now Page, update HTML for Updated time, in static.html (hiran)
+- [ ] Dark/Light theme
+    - [ ] Rename Colors before that
+- [ ] Spacing issue for Webfound page detailed list
+    - [x] Change from h6
+- [ ] Diff between external and internal hyperlinks
+- [ ] Cleanup email before homepage footer, once h1-h6 is fixed (hiran)
+- [ ] book-card-left needs fixed width / proportional 
+- [ ] അത് പോലെ ആ log കണ്ടന്റ് coverന്റെ താഴോട്ട് വരണവിധം ആക്കാൻ പറ്റുമെങ്കിൽ... 
+- [ ] links to notes സെക്ഷനിൽ ഹോവർ ചെയ്യുമ്പോൾ ടെക്സ്റ്റ് പച്ചയാവും, വര കറുപ്പിൽ നിൽക്കും, അണ്ടർലൈൻ ബോർഡർ ഇട്ട് ചെയ്യല്ലേ! ഫോണ്ടിലെ അണ്ടർലൈൻ വിളീ! 
+- li, make bullets internal, refer https://hiran.in/notes/Installing-Malayalam-keyboard-in-Mac
+- Code we can remove display: block;  and padding: var(--space-3);
+
